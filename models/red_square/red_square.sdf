@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='square'>
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <pose>0 0 0.05 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>1 1 0.1</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient> 1 0 0 </ambient>
+          <diffuse> 1 0 0 </diffuse>
+          <specular> 0.1 0.1 0.1 1 1 </specular>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
